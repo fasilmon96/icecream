@@ -1,0 +1,59 @@
+.baner img {
+  max-width: 400px;
+  rotate: deg;
+}
+
+.baner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.baner h1 {
+  font-size: 63px;
+}
+
+h6 {
+  font-size: 16px;
+}
+.ba1 {
+  rotate: 349deg;
+  height: 300px;
+  width: 450px;
+}
+
+.buy1{
+    color: #fff;
+   width: 120px;
+   padding: 10px 0;
+   margin: 20px 25px;
+   border-radius: 17px;
+   font-weight: bold;
+   text-transform: uppercase;
+   border: 2px solid #009688;
+   background: transparent;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+  }
+  span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 17px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    
+
+
+  }
+  button:hover span{
+    width: 100%;
+  }
+  button:hover{
+    border: none;
+  }
+ 

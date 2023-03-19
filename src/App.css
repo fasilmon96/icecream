@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 41);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: #fff;
+     padding: 0;
+     margin: 0;
+  
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    padding:0px 20px;
+    margin: auto;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+  
